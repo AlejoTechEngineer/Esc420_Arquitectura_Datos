@@ -6,7 +6,8 @@
 
 [![Politécnico Grancolombiano](https://img.shields.io/badge/Politécnico-Grancolombiano-003087?style=for-the-badge&logoColor=white)](https://www.poligran.edu.co/)
 [![Maestría](https://img.shields.io/badge/Maestría-Arquitectura%20de%20Software-6A0DAD?style=for-the-badge&logoColor=white)](https://www.poligran.edu.co/)
-[![Microsoft Word](https://img.shields.io/badge/Microsoft-Word%20%2F%20PDF-2B579A?style=for-the-badge&logo=microsoft-word&logoColor=white)](https://www.microsoft.com/es-co/microsoft-365/word)
+[![PDF](https://img.shields.io/badge/Formato-PDF-DC143C?style=for-the-badge&logo=adobeacrobatreader&logoColor=white)](.)
+
 [![Markdown](https://img.shields.io/badge/Markdown-Documentado-000000?style=for-the-badge&logo=markdown&logoColor=white)](https://daringfireball.net/projects/markdown/)
 [![ESC420](https://img.shields.io/badge/Módulo-ESC420-00897B?style=for-the-badge&logoColor=white)](.)
 
@@ -24,6 +25,12 @@ Cada unidad tiene su propia carpeta con los documentos de desarrollo, guías de 
 
 ---
 
+## Nota sobre formatos
+
+Este repositorio **no contiene archivos en formato Word** (`.docx`, `.doc` ni similares). Todos los documentos de desarrollo y soportes de entrega están únicamente en **PDF**. Los archivos Word originales de trabajo local están excluidos por `.gitignore` y nunca forman parte del historial de versiones.
+
+---
+
 ## Arquitectura
 
 ```mermaid
@@ -32,17 +39,17 @@ flowchart TD
     A --> C["📁 unidad-03/\nActividad Formativa — Individual"]
     A --> D["📁 unidad-04/\nActividad Sumativa"]
 
-    B --> B1["U2_ArquitecturaDatos_Final.docx/.pdf\nDocumento de entrega individual"]
+    B --> B1["U2_ArquitecturaDatos_Final.pdf\nDocumento de entrega individual"]
     B --> B2["Comprobante de entrega.png\nSoporte de envío al campus"]
-    B --> B3["U2_ActividadSumativa.docx/.pdf\nGuía y rúbrica de evaluación"]
+    B --> B3["U2_ActividadSumativa.pdf\nGuía y rúbrica de evaluación"]
 
-    C --> C1["Desarrollo_U2_ArquitecturaDatos_Final\n_Alejandro_De_Mendoza.docx/.pdf\nDocumento de entrega individual U3"]
-    C --> C2["LF1_ESC420_U3.docx/.pdf\nMaterial de laboratorio formativo"]
-    C --> C3["U3_ActividadFormativa.docx/.pdf\nGuía y rúbrica de evaluación"]
+    C --> C1["Desarrollo_U2_ArquitecturaDatos_Final\n_Alejandro_De_Mendoza.pdf\nDocumento de entrega individual U3"]
+    C --> C2["LF1_ESC420_U3.pdf\nMaterial de laboratorio formativo"]
+    C --> C3["U3_ActividadFormativa.pdf\nGuía y rúbrica de evaluación"]
 
-    D --> D1["U4_BodegaDatos_ESC420.docx\nDesarrollo completo — Bodega de Datos"]
-    D --> D2["LF1_ESC420_U4.docx/.pdf\nMaterial de laboratorio formativo"]
-    D --> D3["U4_ActividadSumativa.docx/.pdf\nGuía y rúbrica de evaluación"]
+    D --> D1["U4_BodegaDatos_ESC420.pdf\nDesarrollo completo — Bodega de Datos"]
+    D --> D2["LF1_ESC420_U4.pdf\nMaterial de laboratorio formativo"]
+    D --> D3["U4_ActividadSumativa.pdf\nGuía y rúbrica de evaluación"]
 
     B1 & C1 & D1 --> GH[("🐙 GitHub\nAlejoTechEngineer/esc420-arquitectura-datos")]
 ```
@@ -55,28 +62,21 @@ flowchart TD
 esc420-arquitectura-datos/
 │
 ├── unidad-02/                          # Unidad 2 — Modelo y calidad del dato
-│   ├── U2_ArquitecturaDatos_Final.docx         ← Documento de entrega final
-│   ├── U2_ArquitecturaDatos_Final.pdf
-│   ├── Desarrollo_U2_ArquitecturaDatos_Final.docx
-│   ├── U2_ActividadSumativa.docx               ← Guía / rúbrica
-│   ├── U2_ActividadSumativa.pdf
+│   ├── U2_ArquitecturaDatos_Final.pdf          ← Documento de entrega final
+│   ├── Desarrollo_U2_ArquitecturaDatos_Final.pdf
+│   ├── U2_ActividadSumativa.pdf                ← Guía / rúbrica
 │   └── Comprobante de entrega de la atividad desarrollada.png  ← Soporte
 │
 ├── unidad-03/                          # Unidad 3 — Ciclo de vida de la ingeniería de datos
-│   ├── Desarrollo_U2_ArquitecturaDatos_Final_Alejandro_De_Mendoza.docx  ← Entrega final
-│   ├── Desarrollo_U2_ArquitecturaDatos_Final_Alejandro_De_Mendoza.pdf
-│   ├── LF1_ESC420_U3.docx                      ← Material de laboratorio
-│   ├── LF1_ESC420_U3.pdf
-│   ├── U3_ActividadFormativa.docx              ← Guía / rúbrica
-│   ├── U3_ActividadFormativa.pdf
+│   ├── Desarrollo_U2_ArquitecturaDatos_Final_Alejandro_De_Mendoza.pdf  ← Entrega final
+│   ├── LF1_ESC420_U3.pdf                       ← Material de laboratorio
+│   ├── U3_ActividadFormativa.pdf               ← Guía / rúbrica
 │   └── README.md                               ← Descripción del análisis
 │
 └── unidad-04/                          # Unidad 4 — Arquitecturas avanzadas — Bodega de Datos
-    ├── U4_BodegaDatos_ESC420.docx              ← Desarrollo completo
-    ├── LF1_ESC420_U4.docx                      ← Material de laboratorio
-    ├── LF1_ESC420_U4.pdf
-    ├── U4_ActividadSumativa.docx               ← Guía / rúbrica
-    ├── U4_ActividadSumativa.pdf
+    ├── U4_BodegaDatos_ESC420.pdf               ← Desarrollo completo
+    ├── LF1_ESC420_U4.pdf                       ← Material de laboratorio
+    ├── U4_ActividadSumativa.pdf                ← Guía / rúbrica
     └── README.md                               ← Documentación de la entrega
 ```
 
@@ -96,7 +96,7 @@ esc420-arquitectura-datos/
 
 ```
 Politécnico Grancolombiano — Campus Virtual
-├── Microsoft Word / PDF   — documentos de desarrollo y entrega
+├── PDF                    — documentos de desarrollo y entrega
 ├── Markdown               — documentación del repositorio
 └── GitHub                 — control de versiones y archivo maestro
 ```
