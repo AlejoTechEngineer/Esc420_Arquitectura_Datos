@@ -30,7 +30,7 @@ Cada unidad tiene su propia carpeta con los documentos de desarrollo, guías de 
 flowchart TD
     A["🗄️ esc420-arquitectura-datos\nRepositorio Maestro"] --> B["📁 unidad-02/\nActividad Sumativa — Individual"]
     A --> C["📁 unidad-03/\nActividad Formativa — Individual"]
-    A --> D["📁 unidad-04/\nActividad Sumativa — Colaborativa"]
+    A --> D["📁 unidad-04/\nActividad Sumativa"]
 
     B --> B1["U2_ArquitecturaDatos_Final.docx/.pdf\nDocumento de entrega individual"]
     B --> B2["Comprobante de entrega.png\nSoporte de envío al campus"]
@@ -72,12 +72,12 @@ esc420-arquitectura-datos/
 │   └── README.md                               ← Descripción del análisis
 │
 └── unidad-04/                          # Unidad 4 — Arquitecturas avanzadas — Bodega de Datos
-    ├── U4_BodegaDatos_ESC420.docx              ← Desarrollo colaborativo completo
+    ├── U4_BodegaDatos_ESC420.docx              ← Desarrollo completo
     ├── LF1_ESC420_U4.docx                      ← Material de laboratorio
     ├── LF1_ESC420_U4.pdf
     ├── U4_ActividadSumativa.docx               ← Guía / rúbrica
     ├── U4_ActividadSumativa.pdf
-    └── README.md                               ← Contexto de la entrega colaborativa
+    └── README.md                               ← Documentación de la entrega
 ```
 
 ---
@@ -88,7 +88,7 @@ esc420-arquitectura-datos/
 |--------|------|-----------------|--------|
 | **Unidad 2** | Modelo y calidad del dato | Actividad Sumativa — Individual | ✅ Entregado |
 | **Unidad 3** | Ciclo de vida de la ingeniería de datos · ACID vs BASE | Actividad Formativa — Individual | ✅ Entregado |
-| **Unidad 4** | Arquitecturas de almacenamiento avanzado — Bodega de Datos | Actividad Sumativa — Colaborativa | ✅ Entregado |
+| **Unidad 4** | Arquitecturas de almacenamiento avanzado — Bodega de Datos | Actividad Sumativa | ✅ Entregado |
 
 ---
 

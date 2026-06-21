@@ -7,7 +7,7 @@
 > **Programa:** Maestría en Arquitectura de Software  
 > **Módulo:** ESC420 — Arquitectura de Datos  
 > **Unidad:** 4 — Arquitecturas avanzadas de almacenamiento  
-> **Tipo de entrega:** Actividad Sumativa — Colaborativa  
+> **Tipo de entrega:** Actividad Sumativa  
 > **Estudiante:** Alejandro De Mendoza
 
 ---
@@ -16,7 +16,7 @@
 
 Esta carpeta contiene el **desarrollo completo individual** de la Unidad 4, enfocado en el diseño y modelado de una **Bodega de Datos (Data Warehouse)** para el módulo ESC420.
 
-El documento principal (`U4_BodegaDatos_ESC420.docx`) corresponde al trabajo de desarrollo completo. La actividad de esta unidad tuvo componentes colaborativos grupales que fueron trabajados y entregados a través del campus virtual del Politécnico Grancolombiano.
+El documento principal (`U4_BodegaDatos_ESC420.docx`) corresponde al trabajo de desarrollo completo, entregado a través del campus virtual del Politécnico Grancolombiano.
 
 ---
 
