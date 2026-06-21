@@ -10,6 +10,13 @@ Clases/
 *.mov
 *.mkv
 
+# ── Archivos Microsoft Office (Word) — no se versiona en este repo ──────────
+*.docx
+*.doc
+*.docm
+*.dotx
+*.dotm
+
 # ── Archivos temporales de Microsoft Office ─────────────────────────────────
 ~$*.docx
 ~$*.xlsx
