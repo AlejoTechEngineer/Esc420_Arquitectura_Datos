@@ -1,0 +1,43 @@
+# ── Carpetas originales (contenido reorganizado en unidad-XX/) ──────────────
+Laboratorio No. 1/
+Laboratorio No. 2/
+Laboratorio No. 3/
+
+# ── Clases / grabaciones (demasiado grandes para git) ───────────────────────
+Clases/
+*.mp4
+*.avi
+*.mov
+*.mkv
+
+# ── Archivos temporales de Microsoft Office ─────────────────────────────────
+~$*.docx
+~$*.xlsx
+~$*.pptx
+~$*.doc
+~$*.xls
+~$*.ppt
+
+# ── Sistema operativo ────────────────────────────────────────────────────────
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+desktop.ini
+
+# ── IDE / editores ───────────────────────────────────────────────────────────
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# ── Node / entornos de desarrollo (por si acaso) ─────────────────────────────
+node_modules/
+.env
+.env.local
+
+# ── Claude Code ──────────────────────────────────────────────────────────────
+.claude/
